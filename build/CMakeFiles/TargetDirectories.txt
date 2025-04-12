@@ -1,0 +1,3 @@
+/home/lord_werther/CLionProjects/untitled2/build/CMakeFiles/untitled2.dir
+/home/lord_werther/CLionProjects/untitled2/build/CMakeFiles/edit_cache.dir
+/home/lord_werther/CLionProjects/untitled2/build/CMakeFiles/rebuild_cache.dir

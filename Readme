@@ -1,0 +1,47 @@
+## Projeto 3 - Feed de notícias - RSS
+
+### Visão Geral
+
+Este Projeto é uma aplicação em C projetada para transformar informações de um arquivo rss/xml em um html.
+
+### Pré-requisitos
+
+- CMake 3.22 ou superior
+- GCC ou qualquer outro compilador C
+- IDE ou editor de código C
+- Instalar libxml2-dev
+
+### Construindo o Projeto
+
+1. **Descompacte o zip, abra o terminal e vá para o diretório raiz**:
+
+1.5 **Instale libxml2-dev**:
+    ```sh
+    sudo apt-get install libxml2-dev
+    ```
+
+2. ** Execute os seguintes comandos para regenerar a build e criar os objetos**:
+
+    ```sh
+    rm -rf CMakeCache.txt CMakeFiles
+    cmake ..
+    make
+    ```
+
+### Executando a Aplicação
+
+Após construir o projeto, você pode executar a aplicação a partir do diretório de build, indicando o endereço do rss/xml que será analisado:
+
+    ```sh
+    ./MeuProjeto /endereço/do/xml
+    ```
+
+Obs: O arquivo output.html será criado no mesmo diretório em que está o arquivo main.c e o makefile.
+
+### Limpeza
+
+Use o seguinte comando para apagar os objetos criados:
+
+```sh
+make clean
+```
